@@ -4,7 +4,7 @@ body {
     background-color: #191818;
 }
 
-.community-logo{
+.community-logo {
     font-weight: 400;
     font-size: 32px;
     line-height: 76.34px;
@@ -13,7 +13,7 @@ body {
     text-transform: uppercase;
 }
 
-.community-menu  {
+.community-menu {
     display: flex;
     gap: 40px;
     list-style: none;
@@ -98,4 +98,117 @@ header {
     font-weight: 400;
     line-height: normal;
     /* margin-left: 5; */
+}
+
+
+#community-h2 {
+    font-family: Stoke;
+    text-align: left;
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #F57328;
+    margin-left: 90px;
+}
+
+#span-T {
+    color: #F57328;
+}
+
+.community-form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(217, 217, 217, 0.36);
+    opacity: 0.7;
+    background: rgba(25, 24, 24, 0.70);
+    backdrop-filter: blur(2px);
+}
+
+.Topic {
+    font-family: Manrope;
+    line-height: 44px;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+
+.Email-Address {
+    color: white;
+    font-family: Manrope;
+    line-height: 44px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#textA {
+    padding-block: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(217, 217, 217, 0.36);
+    background-color: transparent;
+}
+
+.right-flex {
+    justify-content: right;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#community-button {
+    color: white;
+    background-color: #F57328;
+    border-radius: 50px;
+    width: 25%;
+    height: 50px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    border: 1px solid #F57328;
+    margin-block: 30px;
+    /* float: right; */
+}
+
+.community-form-list {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ema {
+    width: 97%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid rgba(217, 217, 217, 0.36);
+    padding-left: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+.community-h6 {
+    color: #FFFDFC;
+    text-align: center;
+    font-family: Stoke;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.375%;
+}
+
+.community-div-h6{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
