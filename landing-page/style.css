@@ -116,7 +116,7 @@ header {
     letter-spacing: 0.15000000596046448px;
     text-align: center;
     border-color: #F57328;
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 
@@ -124,7 +124,7 @@ header {
     color: #F57328;
     border: 1.5px solid #F57328;
     background-color: transparent;
-    border-radius: 50px;    
+    border-radius: 50px;
     width: 150px;
     height: 50px;
     font-family: Manrope;
@@ -148,12 +148,18 @@ header {
     margin-block: 100px;
 }
 
-.minor_child1,.minor_child2,.minor_child3,.minor_child4{
+.minor_child1,
+.minor_child2,
+.minor_child3,
+.minor_child4 {
     border: 1px solid #F57328;
     padding: 20px;
     border-radius: 10px;
 }
-.minor_child1,.minor_child2,.minor_child3{
+
+.minor_child1,
+.minor_child2,
+.minor_child3 {
     margin-right: 20px;
 }
 
@@ -174,20 +180,20 @@ header {
     color: white;
 }
 
-.p-serve{
-    color:#F57328;
+.p-serve {
+    color: #F57328;
 }
 
-.h6-serve{
+.h6-serve {
     color: #D9D9D9;
     font-weight: 100;
-    font-size:xx-small;
+    font-size: xx-small;
 }
 
-.h6-serves{
+.h6-serves {
     color: #D9D9D9;
     font-weight: 100;
-    font-size:xx-small;
+    font-size: xx-small;
     padding-top: 10px;
 }
 
@@ -196,11 +202,11 @@ header {
     height: 150px;
 }
 
-.button-next{
+.button-next {
     color: #F57328;
     border: 1.5px solid #F57328;
     background-color: transparent;
-    border-radius: 50px;    
+    border-radius: 50px;
     width: 140px;
     height: 50px;
     font-family: Manrope;
@@ -213,7 +219,7 @@ header {
     margin-block: 100px;
 }
 
-.center-button{
+.center-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +235,7 @@ header {
     color: white;
 }
 
-.nav-lists{
+.nav-lists {
     display: flex;
     gap: 70px;
     list-style: none;
@@ -292,7 +298,7 @@ header {
 .sects_img {
     width: 700px;
     margin-top: -50px;
-    
+
 }
 
 .sect_heroes {
@@ -300,7 +306,7 @@ header {
 
 }
 
-.hero_section{
+.hero_section {
     width: 90%;
     display: flex;
     margin-left: auto;
@@ -315,7 +321,7 @@ header {
     color: white;
     width: 640px;
     text-transform: capitalize;
-    
+
 }
 
 #best {
@@ -330,7 +336,7 @@ header {
     font-weight: 300;
     width: 550px;
     color: #D9D9D9;
-   
+
 }
 
 .img-sect {
@@ -342,11 +348,11 @@ header {
     margin-top: -50px;
 }
 
-#next-iconic{
+#next-iconic {
     color: #F57328;
     border: 1.5px solid #F57328;
     background-color: transparent;
-    border-radius: 50px;    
+    border-radius: 50px;
     width: 150px;
     height: 50px;
     font-family: Stoke;
@@ -363,29 +369,29 @@ header {
 
 #reserve {
     font-family: Stoke;
-    text-align: center;
+    text-align: left;
     line-height: 44px;
     font-size: 36px;
     font-weight: 500;
-    color: white;
+    color: #F57328;
+    margin-left: 90px;
 }
 
-#span-T{
+#span-T {
     color: #F57328;
 }
 
-
-#reserve_child {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Manrope;
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: 0.15px;
-    width: 590px;
+.form_div {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(217, 217, 217, 0.36);
+    opacity: 0.7;
+    background: rgba(25, 24, 24, 0.70);
+    backdrop-filter: blur(2px);
 }
 
 .Topic {
@@ -396,7 +402,7 @@ header {
     color: white;
 }
 
-.Email-Address{
+.Email-Address {
     color: white;
     font-family: Manrope;
     line-height: 44px;
@@ -410,19 +416,26 @@ header {
 
 textarea {
     resize: none;
-    width: 98%;
-    height: 150px;
+    width: 100%;
+    height: 50px;
     border-radius: 10px;
-    border:1px solid #F57328;
+    border: 1px solid rgba(217, 217, 217, 0.36);
     background-color: transparent;
+}
+
+.right-flex {
+    justify-content: right;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #form-button {
     color: white;
     background-color: #F57328;
-    border-radius: 10px;
-    width: 97%;
-    height: 40px;
+    border-radius: 50px;
+    width: 25%;
+    height: 50px;
     font-family: Manrope;
     font-size: 16px;
     font-weight: 500;
@@ -431,10 +444,11 @@ textarea {
     text-align: center;
     border: 1px solid #F57328;
     margin-block: 30px;
+    /* float: right; */
 }
 
 .my_form {
-    width: 860px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -443,9 +457,8 @@ textarea {
     width: 97%;
     height: 48px;
     border-radius: 10px;
-    border: 1px solid #F57328;
+    border: 1px solid rgba(217, 217, 217, 0.36);
     padding-left: 20px;
     color: white;
     background-color: transparent;
 }
-
