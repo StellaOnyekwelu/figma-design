@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191818;
+}
+
+.community-logo{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 76.34px;
+    font-family: poppins;
+    color: #F57328;
+    text-transform: uppercase;
+}
+
+.community-menu  {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    color: white;
+}
+
+.community-lists {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+
+#active {
+    color: #F57328;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#community-connect {
+    text-transform: capitalize;
+    background-color: #F57328;
+    border-radius: 50px;
+    width: 120px;
+    padding-block: 8px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    border: 1px solid #F57328;
+    color: white;
+}
+
+
+.sect-text {
+    width: 862px;
+    height: 343px;
+    flex-shrink: 0;
+    margin-left: 50px;
+}
+
+.h5-text {
+    color: #F57328;
+    font-family: Stoke;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 836px;
+    height: 50px;
+    flex-shrink: 0;
+    /* margin-left: 50px; */
+}
+
+.p-text {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37px;
+    width: 980px;
+    /* margin-left: 50px; */
+}
+
+.h6-text {
+    color: #F57328;
+    text-align: justify;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-left: 5; */
+}
