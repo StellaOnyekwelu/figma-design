@@ -57,6 +57,79 @@ header {
     color: white;
 }
 
+.community-contribution {
+    width: 355px;
+    height: 233px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(245, 115, 40, 0.20);
+    padding-left: 20px;
+}
+
+.h6-contribution {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1px;
+    padding-left: 20px;
+}
+
+.ul-contribution {
+    color: white;
+    list-style: none;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+   
+}
+
+.community-calendar {
+    width: 409px;
+    height: 312px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(245, 115, 40, 0.20);
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.community-tools {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .community-message{
+    display: flex;
+} */
+
+.h6-calender {
+    color: #F78F53;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.p-calender {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 367px;
+    height: 109px;
+    flex-shrink: 0;
+}
 
 
 .event-title {
@@ -79,7 +152,7 @@ header {
     padding-top: 10px;
 }
 
-.event_img{
+.event_img {
     width: 250px;
     height: 150px;
 }
